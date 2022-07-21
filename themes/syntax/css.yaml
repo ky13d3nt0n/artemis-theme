@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# CSS & PostCSS
+# -----------------------------------------------------------------------------
+
+# .class
+- scope: entity.other.attribute-name.class.css, meta.property-value.css, punctuation.separator.key-value.css, meta.selector.pseudo-class.css
+  settings:
+    foreground: _whiskey-orange
+
+# declaration value
+- scope: constant.numeric.css, keyword.other.unit.px.css, keyword.other.unit.s.css
+  settings:
+    foreground: _whiskey-orange
+
+# custom property argument
+- scope: variable.argument.css, variable.prop.css, variable.argument.custom-media.css
+  settings:
+    foreground: _froly-red
+
+# nesting &:
+- scope: entity.name.tag.nesting.css
+  settings:
+    foreground: _froly-red
+
+# functions
+- scope: support.function.misc.css
+  settings:
+    foreground: _viking-blue
+
+# (, ), :
+- scope: punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.separator.key-value.css
+  settings:
+    foreground: _white
+

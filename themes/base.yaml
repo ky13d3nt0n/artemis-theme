@@ -1,8 +1,8 @@
 $schema: vscode://schemas/color-theme
-author: Siamak Mokhtari, Extended by Dan Hedgecock
-name: Panda Syntax – Beta
+author: Kyle Denton
+name: Artemis
 colorSpaceName: sRGB
-semanticClass: theme.dark.sublime_panda_syntax
+semanticClass: theme.dark.artemis_syntax
 tokenColors:
 
 # -----------------------------------------------------------------------------
@@ -159,17 +159,17 @@ tokenColors:
 # Entities
 # -----------------------------------------------------------------------------
 # Function names
-# - scope: entity.name.function
-#   settings:
-#     foreground: _light-blue
+- scope: entity.name.function
+  settings:
+    foreground: _cornflower-blue
 # # Class extensions: eg extends `Component`
 # - scope: entity.other.inherited-class
 #   settings:
 #     foreground: _light-pink
-# # YAML keys
-# - scope: entity.name.tag.yaml
-#   settings:
-#     foreground: _light-orange
+# YAML keys
+- scope: entity.name.tag.yaml
+  settings:
+    foreground: _froly-red
 
 
 # -----------------------------------------------------------------------------
@@ -179,7 +179,7 @@ tokenColors:
 # - scope: meta.decorator punctuation.decorator
 #   settings:
 #     foreground: _orange
-# # JS Class/Method decorators -> blue function name
+# JS Class/Method decorators -> blue function name
 # - scope: meta.decorator variable
 #   settings:
 #     foreground: _froly-red
@@ -198,9 +198,9 @@ tokenColors:
 # Styles (CSS/SCSS/LESS)
 # -----------------------------------------------------------------------------
 # Expressions like @import
-- scope: keyword.control.at-rule
-  settings:
-    foreground: _orchid-purple
+# - scope: keyword.control.at-rule
+#   settings:
+#     foreground: _orchid-purple
 # # Style !important declarations
 # - scope: keyword.other.important
 #   settings:

@@ -1,9 +1,9 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "author": "Siamak Mokhtari, Extended by Dan Hedgecock",
-  "name": "Panda Syntax – Beta",
+  "author": "Kyle Denton",
+  "name": "Artemis",
   "colorSpaceName": "sRGB",
-  "semanticClass": "theme.dark.sublime_panda_syntax",
+  "semanticClass": "theme.dark.artemis_syntax",
   "tokenColors": [
     {
       "scope": "comment",
@@ -25,9 +25,93 @@
       }
     },
     {
-      "scope": "keyword.control.at-rule",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#61AFEF"
+      }
+    },
+    {
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "storage.type.js, storage.type.function.arrow.js, storage.type.class.js, storage.type.function.js",
       "settings": {
         "foreground": "#C678DD"
+      }
+    },
+    {
+      "scope": "entity.name.type.class.js",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": "variable.other.object.js, variable.other.object.property.js, variable.other.property.js",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "punctuation.terminator.statement.js, punctuation.accessor.js, punctuation.separator.key-value.js",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js, constant.language.null.js, constant.numeric.decimal.js",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": "meta.object.member.js",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "meta.template.expression.js, punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js",
+      "settings": {
+        "foreground": "#BE5046"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.class.css, meta.property-value.css, punctuation.separator.key-value.css, meta.selector.pseudo-class.css",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": "constant.numeric.css, keyword.other.unit.px.css, keyword.other.unit.s.css",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": "variable.argument.css, variable.prop.css, variable.argument.custom-media.css",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "entity.name.tag.nesting.css",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "support.function.misc.css",
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": "punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.separator.key-value.css",
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     }
   ],
