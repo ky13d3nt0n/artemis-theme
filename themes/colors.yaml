@@ -1,0 +1,117 @@
+# -----------------------------------------------------------------------------
+# Black, White, & Grays
+# -----------------------------------------------------------------------------
+_black: '#000000'
+_black-pearl: '#0E1112'
+_black-pearl-dark: '#090B0D'
+
+_white: '#FFFFFF'
+_white-geyser: '#D4D7D6'
+
+_gray-fjord: '#4D5A5E'
+_gray-cinder-dark: '#1F2326'
+_gray-lynch-light: '#6D8086'
+
+# -----------------------------------------------------------------------------
+# Blue
+# -----------------------------------------------------------------------------
+_blue: '#519ABA'
+_blue-highlight: '#1D5B91'
+_blue-text: '#FFFFFF'
+
+# -----------------------------------------------------------------------------
+# Green
+# -----------------------------------------------------------------------------
+_green: '#8DC149'
+_green-highlight: '#436B24'
+_green-text: '#FFFFFF'
+
+# -----------------------------------------------------------------------------
+# Orange
+# -----------------------------------------------------------------------------
+_orange: '#E37933'
+_orange-highlight: '#B55421'
+_orange-text: '#FFFFFF'
+
+# -----------------------------------------------------------------------------
+# Pink
+# -----------------------------------------------------------------------------
+_pink: '#F55385'
+_pink-highlight: '#63213F'
+_pink-text: '#FFFFFF'
+
+# -----------------------------------------------------------------------------
+# Purple
+# -----------------------------------------------------------------------------
+_purple: '#A074C4'
+_purple-highlight: '#4F397C'
+_purple-text: '#FFFFFF'
+
+# -----------------------------------------------------------------------------
+# Red
+# -----------------------------------------------------------------------------
+_red: '#CC3E44'
+_red-highlight: '#7C1C20'
+_red-text: '#FFFFFF'
+
+# -----------------------------------------------------------------------------
+# Steel
+# -----------------------------------------------------------------------------
+_steel: '#7494A3'
+_steel-highlight: '#293C44'
+_steel-text: '#FFFFFF'
+
+# -----------------------------------------------------------------------------
+# Yellow
+# -----------------------------------------------------------------------------
+_yellow: '#CBCB41'
+_yellow-highlight: '#A2852F'
+_yellow-text: '#13181B'
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#
+# Syntax Colors
+#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+_mono-1: '#ABB2BF'
+_mono-2: '#828997'
+_mono-3: '#5C6370'
+
+_viking-blue: '#56B6C2'
+_cornflower-blue: '#61AFEF'
+_orchid-purple: '#C678DD'
+_olivine-green: '#98C379'
+_froly-red: '#E06C75'
+_sunset-red: '#BE5046'
+_whiskey-orange: '#D19A66'
+_corvette-orange: '#E5C07B'
+
+
+# -----------------------------------------------------------------------------
+# Element Colors
+# -----------------------------------------------------------------------------
+# Two backgrounds are used to provide contrast between section in editor.
+# Foreground color for normal font, use green for contrast fonts
+# _background-dark: '#242526' # very-dark-gray
+# _background-light: '#292A2B' # seal
+# _foreground: '#E6E6E6' # very-light-gray
+# _diff-green: '#19f9d866'
+# _diff-red: '#FF4B8266'
+# _merge-current-header: '#B084EB90' # purple with alpha
+# _merge-current-content: '#B084EB40' # same purple less alpha
+# _merge-incoming-header: '#45A9F990' # orange with alpha
+# _merge-incoming-content: '#FFB86C40' # same orange less alpha
+# _transparent: '#00000000'
+
+# Git Colors
+# _git-modified: '#FFCC95' # light-orange
+# _git-added: '#19f9d8' # green
+# _git-removed: '#FF4B82' # light-red
+# _git-ignored: '#757575' # light-grey
+
+# Linter Colors
+# _error: '#FF4B82' # light-red
+# _warning: '#FFCC95' # light-orange
+# _info: '#6FC1FF' # light-blue
+
+# Transparent Hex Table: https://stackoverflow.com/questions/23201134/transparent-argb-hex-value

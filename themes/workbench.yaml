@@ -1,0 +1,999 @@
+colors:
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Base Colors
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # focusBorder: NONE
+  # foreground: NONE
+  # disabledForeground: NONE
+  # widget.shadow: NONE
+  # selection.background: NONE
+  # descriptionForeground: NONE
+  # errorForeground: NONE
+  # icon.foreground: NONE
+  # sash.hoverBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Window
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # window.activeBorder: NONE
+  # window.inactiveBorder: NONE
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Text
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # textBlockQuote.background: NONE
+  # textBlockQuote.border: NONE
+  # textCodeBlock.background: NONE
+  # textLink.activeForeground: NONE
+  # textLink.foreground: NONE
+  # textPreformat.foreground: NONE
+  # textSeparator.foreground: NONE
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Actions
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # toolbar.hoverBackground: NONE
+  # toolbar.hoverOutline: NONE
+  # toolbar.activeBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Buttons
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # button.background: NONE
+  # button.foreground: NONE
+  # button.border: NONE
+  # button.hoverBackground: NONE
+  # button.secondaryForeground: NONE
+  # button.secondaryBackground: NONE
+  # button.secondaryHoverBackground: NONE
+  # checkbox.background: NONE
+  # checkbox.foreground: NONE
+  # checkbox.border: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Dropdown
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # dropdown.background: NONE
+  # dropdown.listBackground: NONE
+  # dropdown.border: NONE
+  # dropdown.foreground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Inputs
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # input.background: NONE
+  # input.border: NONE
+  # input.foreground: NONE
+  # input.placeholderForeground: NONE
+  # inputOption.activeBackground: NONE
+  # inputOption.activeBorder: NONE
+  # inputOption.activeForeground: NONE
+  # inputOption.hoverBackground: NONE
+  # inputValidation.errorBackground: NONE
+  # inputValidation.errorForeground: NONE
+  # inputValidation.errorBorder: NONE
+  # inputValidation.infoBackground: NONE
+  # inputValidation.infoForeground: NONE
+  # inputValidation.infoBorder: NONE
+  # inputValidation.warningBackground: NONE
+  # inputValidation.warningForeground: NONE
+  # inputValidation.warningBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Scrollbar
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # scrollbar.shadow: NONE
+  # scrollbarSlider.activeBackground: NONE
+  # scrollbarSlider.background: NONE
+  # scrollbarSlider.hoverBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Badge
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # badge.foreground: NONE
+  # badge.background: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Progress Bar
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # progressBar.background: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # List & Trees
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # list.activeSelectionBackground: NONE
+  # list.activeSelectionForeground: NONE
+  # list.activeSelectionIconForeground: NONE
+  # list.dropBackground: NONE
+  # list.focusBackground: NONE
+  # list.focusForeground: NONE
+  # list.focusHighlightForeground: NONE
+  # list.focusOutline: NONE
+  # list.focusAndSelectionOutline: NONE
+  # list.highlightForeground: NONE
+  # list.hoverBackground: NONE
+  # list.hoverForeground: NONE
+  # list.inactiveSelectionBackground: NONE
+  # list.inactiveSelectionForeground: NONE
+  # list.inactiveSelectionIconForeground: NONE
+  # list.inactiveFocusBackground: NONE
+  # list.inactiveFocusOutline: NONE
+  # list.invalidItemForeground: NONE
+  # list.errorForeground: NONE
+  # list.warningForeground: NONE
+  # listFilterWidget.background: NONE
+  # listFilterWidget.outline: NONE
+  # listFilterWidget.noMatchesOutline: NONE
+  # list.filterMatchBackground: NONE
+  # list.filterMatchBorder: NONE
+  # list.deemphasizedForeground: NONE
+  # tree.indentGuidesStroke: NONE
+  # tree.tableColumnsBorder: NONE
+  # tree.tableOddRowsBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Activity Bar
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  activityBar.background: _black
+  # activityBar.dropBorder: NONE
+  # activityBar.foreground: NONE
+  # activityBar.inactiveForeground: NONE
+  # activityBar.border: NONE
+  # activityBarBadge.background: NONE
+  # activityBarBadge.foreground: NONE
+  # activityBar.activeBorder: NONE
+  # activityBar.activeBackground: NONE
+  # activityBar.activeFocusBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Side Bar
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  sideBar.background: _black
+  sideBar.foreground: _white-geyser
+  # sideBar.border: NONE
+  # sideBar.dropBackground: NONE
+  # sideBarTitle.foreground: NONE
+  sideBarSectionHeader.background: _gray-cinder-dark
+  # sideBarSectionHeader.foreground: NONE
+  # sideBarSectionHeader.border: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Minimap
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # minimap.findMatchHighlight: NONE
+  # minimap.selectionHighlight: NONE
+  # minimap.errorHighlight: NONE
+  # minimap.warningHighlight: NONE
+  # minimap.background: NONE
+  # minimap.selectionOccurrenceHighlight: NONE
+  # minimap.foregroundOpacity: NONE
+  # minimapSlider.background: NONE
+  # minimapSlider.hoverBackground: NONE
+  # minimapSlider.activeBackground: NONE
+  # minimapGutter.addedBackground: NONE
+  # minimapGutter.modifiedBackground: NONE
+  # minimapGutter.deletedBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Editor Groups & Tabs
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # editorGroup.border: NONE
+  # editorGroup.dropBackground: NONE
+  # editorGroupHeader.noTabsBackground: NONE
+  # editorGroupHeader.tabsBackground: NONE
+  # editorGroupHeader.tabsBorder: NONE
+  # editorGroupHeader.border: NONE
+  # editorGroup.emptyBackground: NONE
+  # editorGroup.focusedEmptyBorder: NONE
+  # editorGroup.dropIntoPromptForeground: NONE
+  # editorGroup.dropIntoPromptBackground: NONE
+  # editorGroup.dropIntoPromptBorder: NONE
+  tab.activeBackground: _black
+  # tab.unfocusedActiveBackground: NONE
+  # tab.activeForeground: NONE
+  # tab.border: NONE
+  tab.activeBorder: _green
+  # tab.unfocusedActiveBorder: NONE
+  # tab.activeBorderTop: NONE
+  # tab.unfocusedActiveBorderTop: NONE
+  # tab.lastPinnedBorder: NONE
+  # tab.inactiveBackground: NONE
+  # tab.unfocusedInactiveBackground: NONE
+  # tab.inactiveForeground: NONE
+  # tab.unfocusedActiveForeground: NONE
+  # tab.unfocusedInactiveForeground: NONE
+  # tab.hoverBackground: NONE
+  # tab.unfocusedHoverBackground: NONE
+  # tab.hoverForeground: NONE
+  # tab.unfocusedHoverForeground: NONE
+  # tab.hoverBorder: NONE
+  # tab.unfocusedHoverBorder: NONE
+  # tab.activeModifiedBorder: NONE
+  # tab.inactiveModifiedBorder: NONE
+  # tab.unfocusedActiveModifiedBorder: NONE
+  # tab.unfocusedInactiveModifiedBorder: NONE
+  # editorPane.background: NONE
+  # sideBySideEditor.horizontalBorder: NONE
+  # sideBySideEditor.verticalBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Editor
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  editor.background: _gray-cinder-dark
+  # editor.foreground: NONE
+  editorLineNumber.foreground: _gray-fjord
+  editorLineNumber.activeForeground: _gray-fjord
+  # editorCursor.background: NONE
+  # editorCursor.foreground: NONE
+  # editor.selectionBackground: NONE
+  # editor.selectionForeground: NONE
+  # editor.inactiveSelectionBackground: NONE
+  # editor.selectionHighlightBackground: NONE
+  # editor.selectionHighlightBorder: NONE
+  # editor.wordHighlightBackground: NONE
+  # editor.wordHighlightBorder: NONE
+  # editor.wordHighlightStrongBackground: NONE
+  # editor.wordHighlightStrongBorder: NONE
+  # editor.findMatchBackground: NONE
+  # editor.findMatchHighlightBackground: NONE
+  # editor.findRangeHighlightBackground: NONE
+  # editor.findMatchBorder: NONE
+  # editor.findMatchHighlightBorder: NONE
+  # editor.findRangeHighlightBorder: NONE
+
+  # Search Editor
+  # searchEditor.findMatchBackground: NONE
+  # searchEditor.findMatchBorder: NONE
+  # searchEditor.textInputBorder: NONE
+
+  # Hover Highlight
+  # editor.hoverHighlightBackground: NONE
+
+  # Line Highlight
+  # editor.lineHighlightBackground: NONE
+  # editor.lineHighlightBorder: NONE
+  # editorUnicodeHighlight.border: NONE
+  # editorUnicodeHighlight.background: NONE
+
+  # Link
+  # editorLink.activeForeground: NONE
+
+  # Range
+  # editor.rangeHighlightBackground: NONE
+  # editor.rangeHighlightBorder: NONE
+
+  # Symbol Highlight
+  # editor.symbolHighlightBackground: NONE
+  # editor.symbolHighlightBorder: NONE
+
+  # Editor White Space
+  # editorWhitespace.foreground: NONE
+
+  # Editor Indent Guides
+  # editorIndentGuide.background: NONE
+  # editorIndentGuide.activeBackground: NONE
+
+  # Editor Inline Hints
+  # editorInlayHint.background: NONE
+  # editorInlayHint.foreground: NONE
+  # editorInlayHint.typeForeground: NONE
+  # editorInlayHint.typeBackground: NONE
+  # editorInlayHint.parameterForeground: NONE
+  # editorInlayHint.parameterBackground: NONE
+
+  # Editor Rulers
+  # editor.rulers": ?,
+  # editorRuler.foreground: NONE
+  # editor.linkedEditingBackground: NONE
+
+  # CodeLens
+  # editorCodeLens.foreground: NONE
+
+  # Lightbulb
+  # editorLightBulb.foreground: NONE
+  # editorLightBulbAutoFix.foreground: NONE
+
+  # Bracket Matches
+  # editorBracketMatch.background: NONE
+  # editorBracketMatch.border: NONE
+
+  # Bracket Pair Colorization
+  # editorBracketHighlight.foreground1: NONE
+  # editorBracketHighlight.foreground2: NONE
+  # editorBracketHighlight.foreground3: NONE
+  # editorBracketHighlight.foreground4: NONE
+  # editorBracketHighlight.foreground5: NONE
+  # editorBracketHighlight.foreground6: NONE
+  # editorBracketHighlight.unexpectedBracket.foreground: NONE
+
+  # Bracket Pair Guides
+  # editorBracketPairGuide.activeBackground1: NONE
+  # editorBracketPairGuide.activeBackground2: NONE
+  # editorBracketPairGuide.activeBackground3: NONE
+  # editorBracketPairGuide.activeBackground4: NONE
+  # editorBracketPairGuide.activeBackground5: NONE
+  # editorBracketPairGuide.activeBackground6: NONE
+  # editorBracketPairGuide.background1: NONE
+  # editorBracketPairGuide.background2: NONE
+  # editorBracketPairGuide.background3: NONE
+  # editorBracketPairGuide.background4: NONE
+  # editorBracketPairGuide.background5: NONE
+  # editorBracketPairGuide.background6: NONE
+
+  # Folding
+  # editor.foldBackground: NONE
+
+  # Overview Ruler
+  # editorOverviewRuler.background: NONE
+  # editorOverviewRuler.border: NONE
+  # editorOverviewRuler.findMatchForeground: NONE
+  # editorOverviewRuler.rangeHighlightForeground: NONE
+  # editorOverviewRuler.selectionHighlightForeground: NONE
+  # editorOverviewRuler.wordHighlightForeground: NONE
+  # editorOverviewRuler.wordHighlightStrongForeground: NONE
+  # editorOverviewRuler.modifiedForeground: NONE
+  # editorOverviewRuler.addedForeground: NONE
+  # editorOverviewRuler.deletedForeground: NONE
+  # editorOverviewRuler.errorForeground: NONE
+  # editorOverviewRuler.warningForeground: NONE
+  # editorOverviewRuler.infoForeground: NONE
+  # editorOverviewRuler.bracketMatchForeground: NONE
+
+  # Errors & Warnings
+  # editorError.foreground: NONE
+  # editorError.border: NONE
+  # editorError.background: NONE
+  # editorWarning.foreground: NONE
+  # editorWarning.border: NONE
+  # editorWarning.background: NONE
+  # editorInfo.foreground: NONE
+  # editorInfo.border: NONE
+  # editorInfo.background: NONE
+  # editorHint.foreground: NONE
+  # editorHint.border: NONE
+  # problemsErrorIcon.foreground: NONE
+  # problemsWarningIcon.foreground: NONE
+  # problemsInfoIcon.foreground: NONE
+
+  # Unused Source Code
+  # editorUnnecessaryCode.border: NONE
+  # editorUnnecessaryCode.opacity: NONE
+  # editorUnnecessaryCode.border": ?
+
+  # Gutter
+  # editorGutter.background: NONE
+  # editorGutter.modifiedBackground: NONE
+  # editorGutter.addedBackground: NONE
+  # editorGutter.deletedBackground: NONE
+  # editorGutter.commentRangeForeground: NONE
+  # editorGutter.foldingControlForeground: NONE
+
+  # Editor Comments
+  # editorCommentsWidget.resolvedBorder: NONE
+  # editorCommentsWidget.unresolvedBorder: NONE
+  # editorCommentsWidget.rangeBackground: NONE
+  # editorCommentsWidget.rangeBorder: NONE
+  # editorCommentsWidget.rangeActiveBackground: NONE
+  # editorCommentsWidget.rangeActiveBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Diff Editor
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # diffEditor.insertedTextBackground: NONE
+  # diffEditor.insertedTextBorder: NONE
+  # diffEditor.removedTextBackground: NONE
+  # diffEditor.removedTextBorder: NONE
+  # diffEditor.border: NONE
+  # diffEditor.diagonalFill: NONE
+  # diffEditor.insertedLineBackground: NONE
+  # diffEditor.removedLineBackground: NONE
+  # diffEditorGutter.insertedLineBackground: NONE
+  # diffEditorGutter.removedLineBackground: NONE
+  # diffEditorOverview.insertedForeground: NONE
+  # diffEditorOverview.removedForeground: NONE
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Editor Widget
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # editorWidget.foreground: NONE
+  # editorWidget.background: NONE
+  # editorWidget.border: NONE
+  # editorWidget.resizeBorder: NONE
+  # editorSuggestWidget.background: NONE
+  # editorSuggestWidget.border: NONE
+  # editorSuggestWidget.foreground: NONE
+  # editorSuggestWidget.focusHighlightForeground: NONE
+  # editorSuggestWidget.highlightForeground: NONE
+  # editorSuggestWidget.selectedBackground: NONE
+  # editorSuggestWidget.selectedForeground: NONE
+  # editorSuggestWidget.selectedIconForeground: NONE
+  # editorSuggestWidgetStatus.foreground: NONE
+  # editorHoverWidget.foreground: NONE
+  # editorHoverWidget.background: NONE
+  # editorHoverWidget.border: NONE
+  # editorHoverWidget.highlightForeground: NONE
+  # editorHoverWidget.statusBarBackground: NONE
+  # editorGhostText.border: NONE
+  # editorGhostText.background: NONE
+  # editorGhostText.foreground: NONE
+
+  # Debug Exception
+  # debugExceptionWidget.background: NONE
+  # debugExceptionWidget.border: NONE
+
+  # Editor Marker View
+  # editorMarkerNavigation.background: NONE
+  # editorMarkerNavigationError.background: NONE
+  # editorMarkerNavigationWarning.background: NONE
+  # editorMarkerNavigationInfo.background: NONE
+  # editorMarkerNavigationError.headerBackground: NONE
+  # editorMarkerNavigationWarning.headerBackground: NONE
+  # editorMarkerNavigationInfo.headerBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Peek View
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # peekView.border: NONE
+  # peekViewEditor.background: NONE
+  # peekViewEditorGutter.background: NONE
+  # peekViewEditor.matchHighlightBackground: NONE
+  # peekViewEditor.matchHighlightBorder: NONE
+  # peekViewResult.background: NONE
+  # peekViewResult.fileForeground: NONE
+  # peekViewResult.lineForeground: NONE
+  # peekViewResult.matchHighlightBackground: NONE
+  # peekViewResult.selectionBackground: NONE
+  # peekViewResult.selectionForeground: NONE
+  # peekViewTitle.background: NONE
+  # peekViewTitleDescription.foreground: NONE
+  # peekViewTitleLabel.foreground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Merge Conflict
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # merge.currentHeaderBackground: NONE
+  # merge.currentContentBackground: NONE
+  # merge.incomingHeaderBackground: NONE
+  # merge.incomingContentBackground: NONE
+  # merge.border: NONE
+  # merge.commonContentBackground: NONE
+  # merge.commonHeaderBackground: NONE
+  # editorOverviewRuler.currentContentForeground: NONE
+  # editorOverviewRuler.incomingContentForeground: NONE
+  # editorOverviewRuler.commonContentForeground: NONE
+  # mergeEditor.change.background: NONE
+  # mergeEditor.change.word.background: NONE
+  # mergeEditor.conflict.unhandledUnfocused.border: NONE
+  # mergeEditor.conflict.unhandledFocused.border: NONE
+  # mergeEditor.conflict.handledUnfocused.border: NONE
+  # mergeEditor.conflict.handledFocused.border: NONE
+  # mergeEditor.conflict.handled.minimapOverViewRuler: NONE
+  # mergeEditor.conflict.unhandled.minimapOverViewRuler: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Panel
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # panel.background: NONE
+  # panel.border: NONE
+  # panel.dropBorder: NONE
+  # panelTitle.activeBorder: NONE
+  # panelTitle.activeForeground: NONE
+  # panelTitle.inactiveForeground: NONE
+  # panelInput.border: NONE
+  # panelSection.border: NONE
+  # panelSection.dropBackground: NONE
+  # panelSectionHeader.background: NONE
+  # panelSectionHeader.foreground: NONE
+  # panelSectionHeader.border: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Status bar
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  statusBar.background: _black-pearl
+  statusBar.foreground: _green
+  # statusBar.border: NONE
+  # statusBar.debuggingBackground: NONE
+  # statusBar.debuggingForeground: NONE
+  # statusBar.debuggingBorder: NONE
+  # statusBar.noFolderForeground: NONE
+  # statusBar.noFolderBackground: NONE
+  # statusBar.noFolderBorder: NONE
+  # statusBarItem.activeBackground: NONE
+  # statusBarItem.hoverBackground: NONE
+  # statusBarItem.prominentForeground: NONE
+  # statusBarItem.prominentBackground: NONE
+  # statusBarItem.prominentHoverBackground: NONE
+  # statusBarItem.remoteBackground: NONE
+  # statusBarItem.remoteForeground: NONE
+  # statusBarItem.errorBackground: NONE
+  # statusBarItem.errorForeground: NONE
+  # statusBarItem.warningBackground: NONE
+  # statusBarItem.warningForeground: NONE
+  # statusBarItem.compactHoverBackground: NONE
+  # statusBarItem.focusBorder: NONE
+  # statusBarItem.settingsProfilesForeground: NONE
+  # statusBarItem.settingsProfilesBackground: NONE
+  # statusBar.focusBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Title bar
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # titleBar.activeBackground: NONE
+  # titleBar.activeForeground: NONE
+  # titleBar.inactiveBackground: NONE
+  # titleBar.inactiveForeground: NONE
+  # titleBar.border: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Menu bar
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # menubar.selectionForeground: NONE
+  # menubar.selectionBackground: NONE
+  # menubar.selectionBorder: NONE
+  # menu.foreground: NONE
+  # menu.background: NONE
+  # menu.selectionForeground: NONE
+  # menu.selectionBackground: NONE
+  # menu.selectionBorder: NONE
+  # menu.separatorBackground: NONE
+  # menu.border: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Command Center
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # commandCenter.foreground: NONE
+  # commandCenter.activeForeground: NONE
+  # commandCenter.background: NONE
+  # commandCenter.activeBackground: NONE
+  # commandCenter.border: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Notification
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # notificationCenter.border: NONE
+  # notificationCenterHeader.foreground: NONE
+  # notificationCenterHeader.background: NONE
+  # notificationToast.border: NONE
+  # notifications.foreground: NONE
+  # notifications.background: NONE
+  # notifications.border: NONE
+  # notificationLink.foreground: NONE
+  # notificationsErrorIcon.foreground: NONE
+  # notificationsWarningIcon.foreground: NONE
+  # notificationsInfoIcon.foreground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Banner
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # banner.background: NONE
+  # banner.foreground: NONE
+  # banner.iconForeground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Extension
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # extensionButton.prominentForeground: NONE
+  # extensionButton.prominentBackground: NONE
+  # extensionButton.prominentHoverBackground: NONE
+  # extensionBadge.remoteBackground: NONE
+  # extensionBadge.remoteForeground: NONE
+  # extensionIcon.starForeground: NONE
+  # extensionIcon.verifiedForeground: NONE
+  # extensionIcon.preReleaseForeground: NONE
+  # extensionIcon.sponsorForeground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Quick Picker
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # pickerGroup.border: NONE
+  # pickerGroup.foreground: NONE
+  # quickInput.background: NONE
+  # quickInput.foreground: NONE
+  # quickInputList.focusBackground: NONE
+  # quickInputList.focusForeground: NONE
+  # quickInputList.focusIconForeground: NONE
+  # quickInputTitle.background: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Keybinding Label
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # keybindingLabel.background: NONE
+  # keybindingLabel.foreground: NONE
+  # keybindingLabel.border: NONE
+  # keybindingLabel.bottomBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Keyboard Shortcut Table
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # keybindingTable.headerBackground: NONE
+  # keybindingTable.rowsBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Integrated Terminal
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # terminal.background: NONE
+  # terminal.border: NONE
+  # terminal.foreground: NONE
+  # terminal.ansiBlack: NONE
+  # terminal.ansiBlue: NONE
+  # terminal.ansiBrightBlack: NONE
+  # terminal.ansiBrightBlue: NONE
+  # terminal.ansiBrightCyan: NONE
+  # terminal.ansiBrightGreen: NONE
+  # terminal.ansiBrightMagenta: NONE
+  # terminal.ansiBrightRed: NONE
+  # terminal.ansiBrightWhite: NONE
+  # terminal.ansiBrightYellow: NONE
+  # terminal.ansiCyan: NONE
+  # terminal.ansiGreen: NONE
+  # terminal.ansiMagenta: NONE
+  # terminal.ansiRed: NONE
+  # terminal.ansiWhite: NONE
+  # terminal.ansiYellow: NONE
+  # terminal.selectionBackground: NONE
+  # terminal.selectionForeground: NONE
+  # terminal.findMatchBackground: NONE
+  # terminal.findMatchBorder: NONE
+  # terminal.findMatchHighlightBackground: NONE
+  # terminal.findMatchHighlightBorder: NONE
+  # terminalCursor.background: NONE
+  # terminalCursor.foreground: NONE
+  # terminal.dropBackground: NONE
+  # terminal.tab.activeBorder: NONE
+  # terminalCommandDecoration.defaultBackground: NONE
+  # terminalCommandDecoration.successBackground: NONE
+  # terminalCommandDecoration.errorBackground: NONE
+  # terminalOverviewRuler.cursorForeground: NONE
+  # terminalOverviewRuler.findMatchForeground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Debug
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # debugToolBar.background: NONE
+  # debugToolBar.border: NONE
+  # editor.stackFrameHighlightBackground: NONE
+  # editor.focusedStackFrameHighlightBackground: NONE
+  # editor.inlineValuesForeground: NONE
+  # editor.inlineValuesBackground: NONE
+  # debugView.exceptionLabelForeground: NONE
+  # debugView.exceptionLabelBackground: NONE
+  # debugView.stateLabelForeground: NONE
+  # debugView.stateLabelBackground: NONE
+  # debugView.valueChangedHighlight: NONE
+  # debugTokenExpression.name: NONE
+  # debugTokenExpression.value: NONE
+  # debugTokenExpression.string: NONE
+  # debugTokenExpression.boolean: NONE
+  # debugTokenExpression.number: NONE
+  # debugTokenExpression.error: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Testing
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # testing.iconFailed: NONE
+  # testing.iconErrored: NONE
+  # testing.iconPassed: NONE
+  # testing.runAction: NONE
+  # testing.iconQueued: NONE
+  # testing.iconUnset: NONE
+  # testing.iconSkipped: NONE
+  # testing.peekBorder: NONE
+  # testing.peekHeaderBackground: NONE
+  # testing.message.error.decorationForeground: NONE
+  # testing.message.error.lineBackground: NONE
+  # testing.message.info.decorationForeground: NONE
+  # testing.message.info.lineBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Welcome Page
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # welcomePage.background: NONE
+  # welcomePage.progress.background: NONE
+  # welcomePage.progress.foreground: NONE
+  # welcomePage.tileBackground: NONE
+  # welcomePage.tileHoverBackground: NONE
+  # welcomePage.tileShadow: NONE
+  # walkThrough.embeddedEditorBackground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Source Control
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # scm.providerBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Git
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # gitDecoration.addedResourceForeground: NONE
+  # gitDecoration.modifiedResourceForeground: NONE
+  # gitDecoration.deletedResourceForeground: NONE
+  # gitDecoration.renamedResourceForeground: NONE
+  # gitDecoration.stageModifiedResourceForeground: NONE
+  # gitDecoration.stageDeletedResourceForeground: NONE
+  # gitDecoration.untrackedResourceForeground: NONE
+  # gitDecoration.ignoredResourceForeground: NONE
+  # gitDecoration.conflictingResourceForeground: NONE
+  # gitDecoration.submoduleResourceForeground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Settings Editor
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # settings.headerForeground: NONE
+  # settings.modifiedItemIndicator: NONE
+  # settings.dropdownBackground: NONE
+  # settings.dropdownForeground: NONE
+  # settings.dropdownBorder: NONE
+  # settings.dropdownListBorder: NONE
+  # settings.checkboxBackground: NONE
+  # settings.checkboxForeground: NONE
+  # settings.checkboxBorder: NONE
+  # settings.rowHoverBackground: NONE
+  # settings.textInputBackground: NONE
+  # settings.textInputForeground: NONE
+  # settings.textInputBorder: NONE
+  # settings.numberInputBackground: NONE
+  # settings.numberInputForeground: NONE
+  # settings.numberInputBorder: NONE
+  # settings.focusedRowBackground: NONE
+  # settings.focusedRowBorder: NONE
+  # settings.headerBorder: NONE
+  # settings.sashBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Breadcrumbs
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  breadcrumb.foreground: _white
+  breadcrumb.background: _black
+  # breadcrumb.focusForeground: NONE
+  # breadcrumb.activeSelectionForeground: NONE
+  # breadcrumbPicker.background: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Snippets
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # editor.snippetTabstopHighlightBackground: NONE
+  # editor.snippetTabstopHighlightBorder: NONE
+  # editor.snippetFinalTabstopHighlightBackground: NONE
+  # editor.snippetFinalTabstopHighlightBorder: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Symbol Icons
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # symbolIcon.arrayForeground: NONE
+  # symbolIcon.booleanForeground: NONE
+  # symbolIcon.classForeground: NONE
+  # symbolIcon.colorForeground: NONE
+  # symbolIcon.constantForeground: NONE
+  # symbolIcon.constructorForeground: NONE
+  # symbolIcon.enumeratorForeground: NONE
+  # symbolIcon.enumeratorMemberForeground: NONE
+  # symbolIcon.eventForeground: NONE
+  # symbolIcon.fieldForeground: NONE
+  # symbolIcon.fileForeground: NONE
+  # symbolIcon.folderForeground: NONE
+  # symbolIcon.functionForeground: NONE
+  # symbolIcon.interfaceForeground: NONE
+  # symbolIcon.keyForeground: NONE
+  # symbolIcon.keywordForeground: NONE
+  # symbolIcon.methodForeground: NONE
+  # symbolIcon.moduleForeground: NONE
+  # symbolIcon.namespaceForeground: NONE
+  # symbolIcon.nullForeground: NONE
+  # symbolIcon.numberForeground: NONE
+  # symbolIcon.objectForeground: NONE
+  # symbolIcon.operatorForeground: NONE
+  # symbolIcon.packageForeground: NONE
+  # symbolIcon.propertyForeground: NONE
+  # symbolIcon.referenceForeground: NONE
+  # symbolIcon.snippetForeground: NONE
+  # symbolIcon.stringForeground: NONE
+  # symbolIcon.structForeground: NONE
+  # symbolIcon.textForeground: NONE
+  # symbolIcon.typeParameterForeground: NONE
+  # symbolIcon.unitForeground: NONE
+  # symbolIcon.variableForeground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Debug Icons
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # debugIcon.breakpointForeground: NONE
+  # debugIcon.breakpointDisabledForeground: NONE
+  # debugIcon.breakpointUnverifiedForeground: NONE
+  # debugIcon.breakpointCurrentStackframeForeground: NONE
+  # debugIcon.breakpointStackframeForeground: NONE
+  # debugIcon.startForeground: NONE
+  # debugIcon.pauseForeground: NONE
+  # debugIcon.stopForeground: NONE
+  # debugIcon.disconnectForeground: NONE
+  # debugIcon.restartForeground: NONE
+  # debugIcon.stepOverForeground: NONE
+  # debugIcon.stepIntoForeground: NONE
+  # debugIcon.stepOutForeground: NONE
+  # debugIcon.continueForeground: NONE
+  # debugIcon.stepBackForeground: NONE
+  # debugConsole.infoForeground: NONE
+  # debugConsole.warningForeground: NONE
+  # debugConsole.errorForeground: NONE
+  # debugConsole.sourceForeground: NONE
+  # debugConsoleInputIcon.foreground: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Notebooks
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # notebook.editorBackground: NONE
+  # notebook.cellBorderColor: NONE
+  # notebook.cellHoverBackground: NONE
+  # notebook.cellInsertionIndicator: NONE
+  # notebook.cellStatusBarItemHoverBackground: NONE
+  # notebook.cellToolbarSeparator: NONE
+  # notebook.cellEditorBackground: NONE
+  # notebook.focusedCellBackground: NONE
+  # notebook.focusedCellBorder: NONE
+  # notebook.focusedEditorBorder: NONE
+  # notebook.inactiveFocusedCellBorder: NONE
+  # notebook.inactiveSelectedCellBorder: NONE
+  # notebook.outputContainerBackgroundColor: NONE
+  # notebook.outputContainerBorderColor: NONE
+  # notebook.selectedCellBackground: NONE
+  # notebook.selectedCellBorder: NONE
+  # notebook.symbolHighlightBackground: NONE
+  # notebookScrollbarSlider.activeBackground: NONE
+  # notebookScrollbarSlider.background: NONE
+  # notebookScrollbarSlider.hoverBackground: NONE
+  # notebookStatusErrorIcon.foreground: NONE
+  # notebookStatusRunningIcon.foreground: NONE
+  # notebookStatusSuccessIcon.foreground: NONE
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Charts
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # charts.foreground: NONE
+  # charts.lines: NONE
+  # charts.red: NONE
+  # charts.blue: NONE
+  # charts.yellow: NONE
+  # charts.orange: NONE
+  # charts.green: NONE
+  # charts.purple: NONE
+
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Ports
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  #
+  # Extension
+  #
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+

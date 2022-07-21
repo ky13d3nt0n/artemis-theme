@@ -1,0 +1,49 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "author": "Siamak Mokhtari, Extended by Dan Hedgecock",
+  "name": "Panda Syntax – Beta",
+  "colorSpaceName": "sRGB",
+  "semanticClass": "theme.dark.sublime_panda_syntax",
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#5C6370",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": "keyword.control.at-rule",
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    }
+  ],
+  "colors": {
+    "activityBar.background": "#000000",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#D4D7D6",
+    "sideBarSectionHeader.background": "#1F2326",
+    "tab.activeBackground": "#000000",
+    "tab.activeBorder": "#8DC149",
+    "editor.background": "#1F2326",
+    "editorLineNumber.foreground": "#4D5A5E",
+    "editorLineNumber.activeForeground": "#4D5A5E",
+    "statusBar.background": "#0E1112",
+    "statusBar.foreground": "#8DC149",
+    "breadcrumb.foreground": "#FFFFFF",
+    "breadcrumb.background": "#000000"
+  }
+}
