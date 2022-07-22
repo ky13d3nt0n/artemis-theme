@@ -2,33 +2,36 @@
 # CSS & PostCSS
 # -----------------------------------------------------------------------------
 
-# .class
-- scope: entity.other.attribute-name.class.css, meta.property-value.css, punctuation.separator.key-value.css, meta.selector.pseudo-class.css
+# whiskey orange
+- scope:
+  - meta.selector.css # selectors
+  - meta.property-list.css # properties
+  - constant.numeric.css # integers #
+  - entity.name.tag.nesting.css # nesting #
+  - keyword.other.unit.px.css # px #
+  - keyword.other.unit.s.css # s #
+  - keyword.other.unit.percentage.css # % #
   settings:
     foreground: _whiskey-orange
 
-# declaration value
-- scope: constant.numeric.css, keyword.other.unit.px.css, keyword.other.unit.s.css
-  settings:
-    foreground: _whiskey-orange
-
-# custom property argument
-- scope: variable.argument.css, variable.prop.css, variable.argument.custom-media.css
-  settings:
-    foreground: _froly-red
-
-# nesting &:
-- scope: entity.name.tag.nesting.css
-  settings:
-    foreground: _froly-red
-
-# functions
-- scope: support.function.misc.css
+# viking-blue
+- scope: meta.function.misc.css # var( );
   settings:
     foreground: _viking-blue
 
-# (, ), :
-- scope: punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.separator.key-value.css
+# froly-red
+- scope:
+  - variable.prop.css # var( --var-prop ) #
+  - variable.argument.custom-media.css # @media( --var ) #
   settings:
-    foreground: _white
+    foreground: _froly-red
+
+# mono-1
+- scope:
+  - support.type.property-name.css
+  - punctuation.section.property-list.begin.bracket.curly.css # { #
+  - punctuation.section.property-list.end.bracket.curly.css # } #
+  - punctuation.terminator.rule.css # ; #
+  settings:
+    foreground: _mono-1
 

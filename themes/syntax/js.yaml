@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 # const, let, var, class, =>, =
-- scope: storage.type.js, storage.type.function.arrow.js, storage.type.class.js, storage.type.function.js
+- scope: storage.type.js, storage.type.function.arrow.js, storage.type.class.js, storage.type.function.js, storage.modifier.async.js
   settings:
     foreground: _orchid-purple
 

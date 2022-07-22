@@ -214,7 +214,7 @@ tokenColors:
 # Name of type (struct, class, etc.)
 # -----------------------------------------------------------------------------
 # Generic name of type match
-# - scope: entity.name.type
-#   settings:
-#     foreground: _green
-#     fontStyle: italic
+- scope: entity.name.type
+  settings:
+    foreground: _green
+    fontStyle: italic

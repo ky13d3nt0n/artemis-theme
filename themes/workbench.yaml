@@ -186,7 +186,7 @@ colors:
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   sideBar.background: _black
   sideBar.foreground: _white-geyser
-  # sideBar.border: NONE
+  sideBar.border: _green
   # sideBar.dropBackground: NONE
   # sideBarTitle.foreground: NONE
   sideBarSectionHeader.background: _gray-cinder-dark

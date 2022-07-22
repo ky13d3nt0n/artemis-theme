@@ -37,7 +37,14 @@
       }
     },
     {
-      "scope": "storage.type.js, storage.type.function.arrow.js, storage.type.class.js, storage.type.function.js",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#8DC149",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "storage.type.js, storage.type.function.arrow.js, storage.type.class.js, storage.type.function.js, storage.modifier.async.js",
       "settings": {
         "foreground": "#C678DD"
       }
@@ -78,47 +85,13 @@
         "foreground": "#BE5046"
       }
     },
-    {
-      "scope": "entity.other.attribute-name.class.css, meta.property-value.css, punctuation.separator.key-value.css, meta.selector.pseudo-class.css",
-      "settings": {
-        "foreground": "#D19A66"
-      }
-    },
-    {
-      "scope": "constant.numeric.css, keyword.other.unit.px.css, keyword.other.unit.s.css",
-      "settings": {
-        "foreground": "#D19A66"
-      }
-    },
-    {
-      "scope": "variable.argument.css, variable.prop.css, variable.argument.custom-media.css",
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": "entity.name.tag.nesting.css",
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": "support.function.misc.css",
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": "punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.separator.key-value.css",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    }
+    null
   ],
   "colors": {
     "activityBar.background": "#000000",
     "sideBar.background": "#000000",
     "sideBar.foreground": "#D4D7D6",
+    "sideBar.border": "#8DC149",
     "sideBarSectionHeader.background": "#1F2326",
     "tab.activeBackground": "#000000",
     "tab.activeBorder": "#8DC149",
