@@ -32,6 +32,7 @@
   - punctuation.section.property-list.begin.bracket.curly.css # { #
   - punctuation.section.property-list.end.bracket.curly.css # } #
   - punctuation.terminator.rule.css # ; #
+  - punctuation.definition.entity.css # : #
   settings:
     foreground: _mono-1
 

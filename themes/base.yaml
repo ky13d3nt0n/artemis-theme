@@ -5,77 +5,76 @@ colorSpaceName: sRGB
 semanticClass: theme.dark.artemis_syntax
 tokenColors:
 
+# https://macromates.com/manual/en/language_grammars
+
 # -----------------------------------------------------------------------------
 # Comments
 # -----------------------------------------------------------------------------
 # Generic <comment> matches
-- scope: comment
+- scope:
+  - comment
   settings:
     foreground: _mono-3
     fontStyle: italic
 
 # -----------------------------------------------------------------------------
+# Constant
+# -----------------------------------------------------------------------------
+- scope:
+  - constant
+  settings:
+    foreground: _whiskey-orange
+
+# -----------------------------------------------------------------------------
+# Entities
+# -----------------------------------------------------------------------------
+# Function names
+- scope:
+  - entity.name.function
+  settings:
+    foreground: _cornflower-blue
+# # Class extensions: eg extends `Component`
+# - scope: entity.other.inherited-class
+#   settings:
+#     foreground: _light-pink
+
+- scope:
+  - entity.name.type
+  settings:
+    foreground: _corvette-orange
+
+- scope:
+  - entity.name.tag.yaml # yaml keys
+  settings:
+    foreground: _froly-red
+
+# -----------------------------------------------------------------------------
 # Keywords
 # -----------------------------------------------------------------------------
 # Generic <keyword> matches
-- scope: keyword
+- scope:
+  - keyword
+  - keyword.operator
   settings:
     foreground: _orchid-purple
-# 1. Language features like: import, return, if, else
-# 2. `new` keyword
-# - scope: keyword.control, keyword.operator.new
-#   settings:
-#     foreground: _orchid-purple
-
-# # Make operators light gray by default
-# - scope: keyword.operator
-#   settings:
-#     foreground: _very-light-gray
-
-# # Make logical operators light orange, eg ||, ===
-# - scope: keyword.operator.logical, keyword.operator.comparison
-#   settings:
-#     foreground: _light-orange
-
-# # Make Rust operators pink: &, ::, =>, etc.
-# - scope: keyword.operator.misc, keyword.operator.sigil
-#   settings:
-#     foreground: _pink
-
 
 # -----------------------------------------------------------------------------
 # Storage
 # -----------------------------------------------------------------------------
 # Generic <storage> matches
-# - scope: storage
-#   settings:
-#     foreground: _orange
-
-
-# -----------------------------------------------------------------------------
-# Constants
-# -----------------------------------------------------------------------------
-# Generic <constant> matches
-# - scope: constant
-#   settings:
-#     foreground: _orange
-# # Makes true/false booleans, null, undefined blue
-# # - scope: constant.language
-# #   settings:
-# #     fontStyle: italic
-# # Regex, string escape `\`
-# - scope: constant.character.escape
-#   settings:
-#     foreground: _blue
-
+- scope:
+  - storage
+  settings:
+    foreground: _orchid-purple
 
 # -----------------------------------------------------------------------------
 # Variables && Parameters
 # -----------------------------------------------------------------------------
 # Generic <variable> matches
-# - scope: variable
-#   settings:
-#     foreground: _very-light-gray
+- scope:
+  - variable
+  settings:
+    foreground: _mono-1
 # # Function parameters
 # - scope: variable.parameter
 #   settings:
@@ -120,9 +119,9 @@ tokenColors:
 # Strings
 # -----------------------------------------------------------------------------
 # Generic string match
-- scope: string
-  settings:
-    foreground: _olivine-green
+# - scope: string
+#   settings:
+#     foreground: _olivine-green
 
 
 # -----------------------------------------------------------------------------
@@ -154,22 +153,6 @@ tokenColors:
 #   settings:
 #     foreground: _light-blue
 
-
-# -----------------------------------------------------------------------------
-# Entities
-# -----------------------------------------------------------------------------
-# Function names
-- scope: entity.name.function
-  settings:
-    foreground: _cornflower-blue
-# # Class extensions: eg extends `Component`
-# - scope: entity.other.inherited-class
-#   settings:
-#     foreground: _light-pink
-# YAML keys
-- scope: entity.name.tag.yaml
-  settings:
-    foreground: _froly-red
 
 
 # -----------------------------------------------------------------------------
@@ -214,7 +197,7 @@ tokenColors:
 # Name of type (struct, class, etc.)
 # -----------------------------------------------------------------------------
 # Generic name of type match
-- scope: entity.name.type
-  settings:
-    foreground: _green
-    fontStyle: italic
+# - scope: entity.name.type
+#   settings:
+#     foreground: _green
+#     fontStyle: italic

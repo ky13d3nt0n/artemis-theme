@@ -2,40 +2,88 @@
 # JS
 # -----------------------------------------------------------------------------
 
-# const, let, var, class, =>, =
-- scope: storage.type.js, storage.type.function.arrow.js, storage.type.class.js, storage.type.function.js, storage.modifier.async.js
+# orchid-purple
+- scope:
+  - storage.type.js
+  - storage.type.function.arrow.js
+  - storage.type.class.js
+  - storage.type.function.js
+  - storage.modifier.async.js
   settings:
     foreground: _orchid-purple
 
-# class names
-- scope: entity.name.type.class.js
+# corvette-orange
+- scope:
+  - entity.name.type.class.js # class
   settings:
     foreground: _corvette-orange
 
-# variable names
-- scope: variable.other.object.js, variable.other.object.property.js, variable.other.property.js
+# froly-red
+- scope:
+  - variable.other.object.js
+  - variable.other.object.property.js
+  - variable.other.property.js
   settings:
     foreground: _froly-red
 
-# punctuation
-- scope: punctuation.terminator.statement.js, punctuation.accessor.js, punctuation.separator.key-value.js
+# white
+- scope:
+  - punctuation.terminator.statement.js
+  - punctuation.accessor.js
+  - punctuation.separator.key-value.js
   settings:
     foreground: _white
 
-# booleans, integers
-- scope: constant.language.boolean.false.js, constant.language.boolean.true.js, constant.language.null.js, constant.numeric.decimal.js
+# whiskey-orange
+- scope:
+  - constant.language.boolean.false.js # false
+  - constant.language.boolean.true.js # true
+  - constant.language.null.js # null
+  - constant.numeric.decimal.js # integers
   settings:
     foreground: _whiskey-orange
 
-# objects
-- scope: meta.object.member.js
+# froly-red
+- scope:
+  - meta.object.member.js
   settings:
     foreground: _froly-red
 
 # -----------------------------------------------------------------------------
 # JSX
 # -----------------------------------------------------------------------------
-# ${}, {}
-- scope: meta.template.expression.js, punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js
+
+# sunset-red
+- scope:
+  - meta.template.expression.js # { expression ? true : false }
+  - punctuation.section.embedded.begin.js # ${
+  - punctuation.section.embedded.end.js # }
   settings:
     foreground: _sunset-red
+
+# whiskey-orange
+- scope:
+  - meta.tag.attributes.js
+  settings:
+    foreground: _whiskey-orange
+
+# froly-red
+- scope:
+  - meta.tag.js # div, p, section
+  settings:
+    foreground: _froly-red
+
+# orchid-purple
+- scope:
+  - punctuation.definition.tag.begin.js # <
+  - punctuation.definition.tag.end.js # >
+  settings:
+    foreground: _orchid-purple
+
+# mono-1
+- scope:
+  - meta.brace.round.js # ()
+  - punctuation.definition.parameters.begin.js # .map(
+  - punctuation.definition.parameters.end.js # ... )
+  settings:
+    foreground: _mono-1
