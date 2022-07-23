@@ -87,6 +87,19 @@ _whiskey-orange: '#D19A66'
 _corvette-orange: '#E5C07B'
 
 
+Colors
+Red
+Blue
+Yellow
+
+hsl(red, s, l);
+
+sat = 40
+l = 20
+
+
+
+
 # -----------------------------------------------------------------------------
 # Element Colors
 # -----------------------------------------------------------------------------
@@ -104,10 +117,10 @@ _corvette-orange: '#E5C07B'
 # _transparent: '#00000000'
 
 # Git Colors
-_git-modified: '#CBCB41' # yellow
-_git-added: '#8DC149' # green
-_git-removed: '#E06C75' # froly-red
-_git-ignored: '#5C6370' # mono-3
+_git-modified: '#CBCB41' # _yellow
+_git-added: '#8DC149' # _green
+_git-removed: '#E06C75' # _froly-red
+_git-ignored: '#5C6370' # _mono-3
 
 # Linter Colors
 # _error: '#FF4B82' # light-red

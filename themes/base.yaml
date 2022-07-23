@@ -8,8 +8,9 @@ tokenColors:
 # https://macromates.com/manual/en/language_grammars
 
 # -----------------------------------------------------------------------------
-# Comments
+# Comment
 # -----------------------------------------------------------------------------
+
 # Generic <comment> matches
 - scope:
   - comment
@@ -20,37 +21,55 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Constant
 # -----------------------------------------------------------------------------
+
 - scope:
   - constant
   settings:
     foreground: _whiskey-orange
 
 # -----------------------------------------------------------------------------
-# Entities
+# Entity
 # -----------------------------------------------------------------------------
+
+# Generic entity
+- scope:
+  - entity
+  settings:
+    foreground: _froly-red
+
+# Other entities
+- scope:
+  - entity.other
+  settings:
+    foreground: _whiskey-orange
+
 # Function names
 - scope:
   - entity.name.function
   settings:
     foreground: _cornflower-blue
-# # Class extensions: eg extends `Component`
-# - scope: entity.other.inherited-class
-#   settings:
-#     foreground: _light-pink
 
+# Class and inherited class names
 - scope:
   - entity.name.type
+  - entity.other.inherited-class
   settings:
     foreground: _corvette-orange
 
-- scope:
-  - entity.name.tag.yaml # yaml keys
-  settings:
-    foreground: _froly-red
 
 # -----------------------------------------------------------------------------
-# Keywords
+# Invalid
 # -----------------------------------------------------------------------------
+
+- scope:
+  - invalid
+  settings:
+    foreground: _corvette-orange
+
+# -----------------------------------------------------------------------------
+# Keyword
+# -----------------------------------------------------------------------------
+
 # Generic <keyword> matches
 - scope:
   - keyword
@@ -58,9 +77,41 @@ tokenColors:
   settings:
     foreground: _orchid-purple
 
+# Generic Units
+- scope:
+  - keyword.other.unit
+  settings:
+    foreground: _whiskey-orange
+
+# -----------------------------------------------------------------------------
+# Markup
+# -----------------------------------------------------------------------------
+
+# Generic <markup> matches
+# - scope:
+#   - markup
+#   settings:
+#     foreground: _pink
+
+# -----------------------------------------------------------------------------
+# Meta
+# -----------------------------------------------------------------------------
+
+# Generic <meta> matches
+- scope:
+  - meta
+  settings:
+    foreground: _mono-1
+
+- scope:
+  - meta.object-literal.key
+  settings:
+    foreground: _froly-red
+
 # -----------------------------------------------------------------------------
 # Storage
 # -----------------------------------------------------------------------------
+
 # Generic <storage> matches
 - scope:
   - storage
@@ -68,136 +119,77 @@ tokenColors:
     foreground: _orchid-purple
 
 # -----------------------------------------------------------------------------
-# Variables && Parameters
+# String
 # -----------------------------------------------------------------------------
-# Generic <variable> matches
-- scope:
-  - variable
-  settings:
-    foreground: _mono-1
-# # Function parameters
-# - scope: variable.parameter
-#   settings:
-#     foreground: _contrast-gray
-#     # fontStyle: italic
 
-# # Destructuring assignment variables
-# - scope: meta.object-binding-pattern-variable.js variable
-#   settings:
-#     foreground: _light-orange
-# # Special treatment for CONSTANT variables and this, variable interpolation matches?
-# - scope: variable.other.constant, variable.language.this, variable.interpolation
-#   settings:
-#     foreground: _light-pink
-
-
-# -----------------------------------------------------------------------------
-# Objects
-# -----------------------------------------------------------------------------
-# Matches when an object is accessed.
-# - scope: variable.other.object
-#   settings:
-#       foreground: _light-pink
-# # The accessed property match
-# - scope: variable.other.property
-#   settings:
-#     foreground: _very-light-gray
-
-
-# -----------------------------------------------------------------------------
-# Invalid
-# -----------------------------------------------------------------------------
-# - scope: invalid.illegal
-#   settings:
-#     border-bottom: 1px dashed rgba(255, 44, 109, 0.5)
-# - scope: invalid.deprecated
-#   settings:
-#     background-foreground: rgba(255, 44, 109, 0.62)
-
-
-# -----------------------------------------------------------------------------
-# Strings
-# -----------------------------------------------------------------------------
 # Generic string match
-# - scope: string
-#   settings:
-#     foreground: _olivine-green
-
-
-# -----------------------------------------------------------------------------
-# Punctuation
-# -----------------------------------------------------------------------------
-# Template string ${}
-# - scope: punctuation.definition.template-expression
-#   settings:
-#     foreground: _light-orange
+- scope:
+  - string
+  settings:
+    foreground: _olivine-green
 
 
 # -----------------------------------------------------------------------------
 # Support
 # -----------------------------------------------------------------------------
+
 # Generic support match
-# - scope: support
-#   settings:
-#     foreground: _light-orange
-# # Matches a Class reference when referenced later
-# - scope: support.class
-#   settings:
-#     foreground: _light-orange
-# # Matches: MODULE, MODULE.EXPORTS
-# - scope: support.type.object.module.js
-#   settings:
-#     foreground: _purple
-# # Matches: console.<LOG>
-# - scope: support.function
-#   settings:
-#     foreground: _light-blue
+- scope:
+  - support
+  settings:
+    foreground: _froly-red
 
+# Matches a Class reference when referenced later
+- scope:
+  - support.class
+  settings:
+    foreground: _corvette-orange
 
+# CSS property declarations
+- scope:
+  - support.type.property-name
+  settings:
+    foreground: _mono-1
 
-# -----------------------------------------------------------------------------
-# Meta
-# -----------------------------------------------------------------------------
-# JS Class/Method decorators -> @ punctuation is orange
-# - scope: meta.decorator punctuation.decorator
-#   settings:
-#     foreground: _orange
-# JS Class/Method decorators -> blue function name
-# - scope: meta.decorator variable
-#   settings:
-#     foreground: _froly-red
+# CSS property values
+- scope:
+  - support.constant.property-value
+  settings:
+    foreground: _olivine-green
 
-
-# -----------------------------------------------------------------------------
-# Docker
-# -----------------------------------------------------------------------------
-# Docker file `FROM`
-# - scope: keyword.other.special-method
-#   settings:
-#     foreground: _blue
+# CSS functions
+- scope:
+  - support.function.misc
+  settings:
+    foreground: _viking-blue
 
 
 # -----------------------------------------------------------------------------
-# Styles (CSS/SCSS/LESS)
+# Variable
 # -----------------------------------------------------------------------------
-# Expressions like @import
-# - scope: keyword.control.at-rule
-#   settings:
-#     foreground: _orchid-purple
-# # Style !important declarations
-# - scope: keyword.other.important
-#   settings:
-#     foreground: _light-red
-# - scope: variable.interpolation
-#   settings:
-#     foreground: _pink
 
+# Generic <variable> matches
+- scope:
+  - variable
+  - variable.parameter
+  settings:
+    foreground: _mono-1
+
+- scope:
+  - variable.other.property
+  - variable.other.object.property
+  - variable.prop
+  - variable.argument
+  settings:
+    foreground: _froly-red
 
 # -----------------------------------------------------------------------------
-# Name of type (struct, class, etc.)
+# Punctuation
 # -----------------------------------------------------------------------------
-# Generic name of type match
-# - scope: entity.name.type
-#   settings:
-#     foreground: _green
-#     fontStyle: italic
+
+- scope:
+  - punctuation.definition.tag
+  - punctuation.separator
+  settings:
+    foreground: _orchid-purple
+

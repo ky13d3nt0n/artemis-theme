@@ -1,0 +1,20 @@
+# -----------------------------------------------------------------------------
+#
+# PHP
+#
+# -----------------------------------------------------------------------------
+
+- scope:
+  - support.function
+  settings:
+    foreground: _viking-blue
+
+- scope:
+  - meta.embedded.block.php
+  settings:
+    foreground: _sunset-red
+
+- scope:
+  - punctuation.terminator.expression.php
+  settings:
+    foreground: _mono-1

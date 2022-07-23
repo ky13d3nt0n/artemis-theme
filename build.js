@@ -9,7 +9,8 @@ let base = yaml.load( readFileSync( "themes/base.yaml", "utf-8" )) ;
 
 // Additional theme definitions to combine with base syntax token styles
 const workbench = yaml.load( readFileSync( "themes/workbench.yaml", "utf-8" ) );
-// const js = yaml.load( readFileSync( "themes/syntax/js.yaml", "utf-8" ) );
+const js = yaml.load( readFileSync( "themes/syntax/js.yaml", "utf-8" ) );
+const php = yaml.load( readFileSync( "themes/syntax/php.yaml", "utf-8" ) );
 // const html = yaml.load( readFileSync( "themes/syntax/html.yaml", "utf-8" ) );
 // const css = yaml.load( readFileSync( "themes/syntax/css.yaml", "utf-8" ) );
 // const template = yaml.load(readFileSync("themes/template.yaml", "utf-8"));
@@ -27,11 +28,12 @@ Object.assign( base, workbench );
 base.tokenColors = base.tokenColors.concat(
   // template,
   // markdown,
-  // js,
+  js,
   // html,
   // css,
   // regex,
   // jsdoc
+  php
 );
 
 // Stringify all of the combined theme styles so we can run string regexes on it to
